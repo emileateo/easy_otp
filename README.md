@@ -1,24 +1,26 @@
-# README
+Pair-Programming Exercise: SMS OTP Server
+Task:
+Build an OTP server that can do the following:
+- [x] Generate an OTP number
+- [x] OTP Number should be 6 characters in length
+- [x] Lets you verify an OTP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Other requirements:
+Should be a RESTful API
+Use any programming language and framework
+No special requirements on persistence layer
 
-Things you may want to cover:
+Out of scope:
+Actual SMS delivery
+Authentication for the API
 
-* Ruby version
+Good to have (optional):
+- [] Test coverage
+- [x] There should be an expiry date for every generated OTP
 
-* System dependencies
+Collaboration Tools:
+Use your computer's IDE and share your screen with us.
+If you wish to draw something on a "whiteboard", can use JamBoard (https://jam.new) 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Recommended Time:
+1 hour
