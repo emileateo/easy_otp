@@ -1,0 +1,8 @@
+<h1>OTP Generator</h1>
+
+<%= form_with do |form| %>
+  <%= form.label :phone, 'Phone number:' %>
+  <%= form.text_field :phone %>
+
+  <%= form.submit 'Generate OTP' %>
+<% end %>

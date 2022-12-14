@@ -1,0 +1,11 @@
+<h1>Verify OTP</h1>
+
+<%= form_with do |form| %>
+  <%= form.label :phone, 'Phone number:' %>
+  <%= form.text_field :phone %>
+  
+  <%= form.label :otp, 'OTP:' %>
+  <%= form.text_field :otp %>
+
+  <%= form.submit 'Verify OTP' %>
+<% end %>
